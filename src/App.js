@@ -3,6 +3,7 @@ import React,{Component} from 'react';
 import './App.css';
 import MoviesPage from './components/pages/MoviesPage';
 import NewMoviePage from './components/pages/NewMoviePage';
+import HomePage from './components/pages/HomePage';
 import { Route } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
 import {
@@ -18,6 +19,7 @@ class App extends Component {
       <div className="App">
           <Header/>
               <Container text>
+                  <Route path='/' component={HomePage} exact></Route>
                   <Route path='/movies' component={MoviesPage} exact></Route>
                   <Route path='/movies/new' component={NewMoviePage} exact></Route>
                   <Route path='/movie/:_id' component={NewMoviePage} exact></Route>
