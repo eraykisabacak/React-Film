@@ -28,14 +28,14 @@ class Header extends Component {
                 >
                     <Container text>
                         <Menu.Item as={NavLink} to='/' exact>
-                            <Image size='mini' src='https://react.semantic-ui.com/logo.png' />
+                            <Image size='mini' src='https://image.flaticon.com/icons/png/512/168/168818.png' />
                             <Menu.Item header>Movie App</Menu.Item>
                         </Menu.Item>
                         <Menu.Item as={NavLink} to='/movies' exact>
                             Movies
                         </Menu.Item>
                         <Menu.Item as={NavLink} to='/movies/new' exact>
-                            Add New
+                            Yeni Film Ekle
                         </Menu.Item>
                     </Container>
                 </Menu>

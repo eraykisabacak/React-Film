@@ -12,19 +12,13 @@ const Footer = props => {
         <div>
             <Segment inverted style={{ margin: '5em 0em 0em', padding: '2em 0em' }} vertical>
             <Container textAlign='center'>
-                <Image src='https://react.semantic-ui.com/logo.png' centered size='mini' />
+                <Image src='https://image.flaticon.com/icons/png/512/168/168818.png' centered size='mini' />
                 <List horizontal inverted divided link size='small'>
-                    <List.Item as='a' href='#'>
-                        Site Map
+                    <List.Item as='a' href='http://eraykisabacak.com' target="_blank">
+                        Eray Kısabacak
                     </List.Item>
-                    <List.Item as='a' href='#'>
-                        Contact Us
-                    </List.Item>
-                    <List.Item as='a' href='#'>
-                        Terms and Conditions
-                    </List.Item>
-                    <List.Item as='a' href='#'>
-                        Privacy Policy
+                    <List.Item as='a' href='https://www.linkedin.com/in/eraykisabacak/' target="_blank">
+                        Linkedin
                     </List.Item>
                 </List>
             </Container>
